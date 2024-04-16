@@ -119,7 +119,7 @@ function App() {
 
   const handleUpload = async (event) => {
     event.preventDefault(); // Prevent form submission
-
+      /////////
     const formData = new FormData();
     const files = document.getElementById('files').files;
     for (let i = 0; i < files.length; i++) {
